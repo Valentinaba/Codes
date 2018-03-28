@@ -1,0 +1,15 @@
+import numpy as np
+import matplotlib.pyplot as plt
+#Neurona AND
+#Ejemplo y valores esperados para la funcion AND 
+#Las entradas de la matriz A son los dos valores ingresados y el valor esperado
+A=np.array([[1,1,1],[-1,1,-1],[1,-1,-1],[-1,-1,-1]])
+def Fand():
+        w1=1
+        w2=-1
+        t=1
+        for i in range (4):
+                Y=(A[i,0]*w1)+(A[i,1]*w2)+t
+        print Y
+Fand()
+#Neruron OR
